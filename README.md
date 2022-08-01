@@ -2,6 +2,26 @@
 
 > JamStack Portfolio is a single page portfolio website using Sanity as a content management system (backend) with a react frontend.
 
+- [View Live Site](https://majestic-mandazi-b73214.netlify.app/)
+
+# Table of Contents
+
+- [JamStack Portfolio in React 17](#jamstack-portfolio-in-react-17)
+- [Table of Contents](#table-of-contents)
+- [Advantages](#advantages)
+- [Packages & Features](#packages--features)
+- [Project Details](#project-details)
+- [Instructions](#instructions)
+- [Starting your own project](#starting-your-own-project)
+  - [Sanity ("backend database")](#sanity-backend-database)
+  - [Frontend](#frontend)
+  - [Deployment](#deployment)
+  - [Packages](#packages)
+  - [Sanity Studio](#sanity-studio)
+  - [Developer experience](#developer-experience)
+  - [Structured Content](#structured-content)
+- [Project Images](#project-images)
+
 # Advantages
 
 - [x] Huge time saving advantage over node, express, mongodb
@@ -19,26 +39,10 @@
 - [See JamStack.org ](https://jamstack.org/headless-cms/sanity/)
 - [Sanity](https://www.sanity.io/)
 
-# Table of Contents
-
-- [JamStack Portfolio in React 17](#jamstack-portfolio-in-react-17)
-- [Advantages](#advantages)
-- [Packages & Features](#packages--features)
-- [Project Details](#project-details)
-- [Table of Contents](#table-of-contents)
-- [Instructions](#instructions)
-- [Starting your own project](#starting-your-own-project)
-  - [Sanity ("backend database")](#sanity-backend-database)
-  - [Frontend](#frontend)
-  - [Deployment](#deployment)
-  - [Packages](#packages)
-  - [Sanity Studio](#sanity-studio)
-  - [Developer experience](#developer-experience)
-  - [Structured Content](#structured-content)
-
 # Instructions
 
 - Run `npm start` to start the frontend react application
+- Run `sanity start` inside
 
 # Starting your own project
 
@@ -132,3 +136,12 @@ Sanity Studio is an open source headless real-time CMS, that you can customize w
 - Customizable previews
 - Query images for metadata like dominant colors, sizes, geo-location, and EXIF metadata
 - See how rich text that can be serialized into any markup language, and learn about the Sanity Rich Text Editor
+
+# Project Images
+
+<h1 align="center">
+<img src="images/sanity-studio-login.png"  height="auto" width="100%">
+<img src="images/sanity-io-manage-project.png"  height="auto" width="100%">
+<img src="images/sanity-studio.png"  height="auto" width="100%">
+<img src="images/sanity-dashboard.png"  height="auto" width="100%">
+</h1>
