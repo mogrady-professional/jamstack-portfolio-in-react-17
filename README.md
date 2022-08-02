@@ -20,6 +20,8 @@
   - [Sanity ("backend database")](#sanity-backend-database)
   - [Frontend](#frontend)
   - [Deployment](#deployment)
+    - [Deployment Tips](#deployment-tips)
+    - [Deploying the Sanity Backend](#deploying-the-sanity-backend)
   - [Packages](#packages)
   - [Sanity Studio](#sanity-studio)
   - [Developer experience](#developer-experience)
@@ -97,6 +99,15 @@ apiVersion=<apiVersion_goes_here>
 - Deploy on Netlify, drag the build folder on the sites page, or connect your github repo
 - Alternatively deploy on vercel by deploying the repo
 - **Do not forget to go to [https://www.sanity.io/manage/](https://www.sanity.io/manage/)** to add the final deploy URL to CORS origins (Hosts that can connect to the project API.) otherwise your data will not come through and you'll get those nasty CORS Errors.
+
+### Deployment Tips
+
+- The tooling on Vercel for Sanity is very good which is why I highly recommend you choose Vercel to host your Sanity backend as well as your React frontend.
+  ### Deploying the Sanity Backend
+  See: Trigger Vercel Deploy Hooks from your Sanity Studio -> [Vercel Deploy Plugin CLI](https://www.sanity.io/plugins/vercel-deploy)
+- Run the Install Command `sanity install vercel-deploy` from within the `backend_sanity_portfolio` directory to use the Sanity Studio Plugin for Vercel to enable push button deploys from within Sanity Studio
+  - Open Sanity Studio `sanity start`
+  - You'll see the new `Deploy` tab on the navbar, click it and add your Vercel account token from your Vercel Account Settings
 
 ## Packages
 
