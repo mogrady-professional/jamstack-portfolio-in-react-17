@@ -88,8 +88,10 @@ apiVersion=<apiVersion_goes_here>
 
 ## Deployment
 
-- Inside the React project, run `npm run build` to build the optomized production build
+- Inside the React project, run `npm run build` to build the optimized production build
 - Deploy on Netlify, drag the build folder on the sites page, or connect your github repo
+- Alternatively deploy on vercel by deploying the repo
+- **Do not forget to go to [https://www.sanity.io/manage/](https://www.sanity.io/manage/)** to add the final deploy URL to CORS origins (Hosts that can connect to the project API.) otherwise your data will not come through and you'll get those nasty CORS Errors.
 
 ## Packages
 
