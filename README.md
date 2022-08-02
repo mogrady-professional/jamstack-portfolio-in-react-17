@@ -2,7 +2,11 @@
 
 > JamStack Portfolio is a single page portfolio website using Sanity as a content management system (backend) with a react frontend.
 
-- [View Live Site](https://majestic-mandazi-b73214.netlify.app/)
+<h1 align="center">
+<img src="images/jamstack-portfolio-in-react-17.png"  height="auto" width="100%">
+</h1>
+
+- [View Live Site](http://jamstack-portfolio-in-react-17.vercel.app/)
 
 # Table of Contents
 
@@ -20,6 +24,7 @@
   - [Sanity Studio](#sanity-studio)
   - [Developer experience](#developer-experience)
   - [Structured Content](#structured-content)
+- [Updating content](#updating-content)
 - [Project Images](#project-images)
 
 # Advantages
@@ -138,6 +143,14 @@ Sanity Studio is an open source headless real-time CMS, that you can customize w
 - Customizable previews
 - Query images for metadata like dominant colors, sizes, geo-location, and EXIF metadata
 - See how rich text that can be serialized into any markup language, and learn about the Sanity Rich Text Editor
+
+# Updating content
+
+The backend (Sanity Studio) can can be hosted on Vercel (for example) you can log into your application there and update the content remotely.
+
+- Alternatively, clone the project
+  - `cd backend_sanity_portfolio`
+  - `sanity start` to run the backend Sanity Studio application, login and update your content there.
 
 # Project Images
 
